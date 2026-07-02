@@ -1,0 +1,18 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/Combinational_Circuits/full_adder/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 18 14:55 2026
+A=0 B=0 Cin=0 => Sum=0 Carry=0
+A=0 B=0 Cin=1 => Sum=1 Carry=0
+A=0 B=1 Cin=0 => Sum=1 Carry=0
+A=0 B=1 Cin=1 => Sum=0 Carry=1
+A=1 B=0 Cin=0 => Sum=1 Carry=0
+A=1 B=0 Cin=1 => Sum=0 Carry=1
+A=1 B=1 Cin=0 => Sum=0 Carry=1
+A=1 B=1 Cin=1 => Sum=1 Carry=1
+$finish called from file "full_adder_tb.v", line 27.
+$finish at simulation time                   80
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80
+CPU Time:      0.830 seconds;       Data structure size:   0.0Mb
+Thu Jun 18 14:55:18 2026

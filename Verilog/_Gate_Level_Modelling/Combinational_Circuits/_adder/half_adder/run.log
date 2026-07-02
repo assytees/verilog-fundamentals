@@ -1,0 +1,21 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/_Gate_Level_Modelling/Combinational_Circuits/adder/half_adder/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jul  1 15:55 2026
+A B | Sum Carry
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'dump.fsdb'
+*Verdi* : Begin traversing the scope (half_adder_tb), layer (0).
+*Verdi* : End of traversing.
+0 0 |  0    0
+0 1 |  1    0
+1 0 |  1    0
+1 1 |  0    1
+$finish called from file "half_adder_tb.v", line 28.
+$finish at simulation time                   40
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40
+CPU Time:      0.870 seconds;       Data structure size:   0.0Mb
+Wed Jul  1 15:55:50 2026

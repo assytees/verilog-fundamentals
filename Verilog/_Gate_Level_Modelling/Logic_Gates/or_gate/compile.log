@@ -1,0 +1,15 @@
+Command: vcs -full64 -sverilog -debug_access+all -kdb -l compile.log or_gate.v or_gate_tb.v \
+
+                         Chronologic VCS (TM)
+       Version R-2020.12-SP1_Full64 -- Wed Jun 24 17:18:56 2026
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+

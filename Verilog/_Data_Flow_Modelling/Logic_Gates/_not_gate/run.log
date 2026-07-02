@@ -1,0 +1,12 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/logic_gates/not_gate/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 12 16:15 2026
+a=0, y=1
+a=1, y=0
+$finish called from file "not_gate_tb.v", line 18.
+$finish at simulation time                   20
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 20
+CPU Time:      0.830 seconds;       Data structure size:   0.0Mb
+Fri Jun 12 16:15:56 2026

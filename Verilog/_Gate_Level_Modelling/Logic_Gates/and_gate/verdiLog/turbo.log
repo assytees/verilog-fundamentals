@@ -1,0 +1,9 @@
+Command Line: /home/tool/synopsys/tools/verdi/R-2020.12-SP1/platform/LINUXAMD64/bin/Novas -ssf dump.fsdb
+uname(Linux cad 4.18.0-553.83.1.el8_10.x86_64 #1 SMP Tue Nov 11 20:51:18 UTC 2025 x86_64)
+type= DS_SCOPE element= 1 field= 1
+VERILOG and_gate_tb
+VERILOG uut
+-----
+second field= DebussyLib
+third field= and_gate
+au time 527.727049 18.642844 6.689970 delta 388263936 388263936 total 870543360 870543360

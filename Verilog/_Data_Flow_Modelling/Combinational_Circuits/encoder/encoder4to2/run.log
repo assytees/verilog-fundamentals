@@ -1,0 +1,14 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/Combinational_Circuits/encoder/encoder4to2/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 19 13:03 2026
+D3=0 D2=0 D1=0 D0=1 => Y1=0 Y0=0
+D3=0 D2=0 D1=1 D0=0 => Y1=0 Y0=1
+D3=0 D2=1 D1=0 D0=0 => Y1=1 Y0=0
+D3=1 D2=0 D1=0 D0=0 => Y1=1 Y0=1
+$finish called from file "encoder4to2_tb.v", line 24.
+$finish at simulation time                   40
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40
+CPU Time:      0.830 seconds;       Data structure size:   0.0Mb
+Fri Jun 19 13:03:45 2026

@@ -1,0 +1,14 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/Combinational_Circuits/de_mult/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 18 18:27 2026
+d=1 sel=0 => y0=1 y1=0
+d=1 sel=1 => y0=0 y1=1
+d=0 sel=0 => y0=0 y1=0
+d=1 sel=1 => y0=0 y1=1
+$finish called from file "demux1to2_tb.v", line 24.
+$finish at simulation time                   40
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40
+CPU Time:      0.780 seconds;       Data structure size:   0.0Mb
+Thu Jun 18 18:27:47 2026

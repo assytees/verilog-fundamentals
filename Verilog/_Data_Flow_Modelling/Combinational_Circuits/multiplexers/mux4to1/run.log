@@ -1,0 +1,14 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/Combinational_Circuits/multiplexers/mux4to1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 18 15:13 2026
+sel=00 | i0=0 i1=1 i2=0 i3=1 => y=0
+sel=01 | i0=0 i1=1 i2=0 i3=1 => y=1
+sel=10 | i0=0 i1=1 i2=0 i3=1 => y=0
+sel=11 | i0=0 i1=1 i2=0 i3=1 => y=1
+$finish called from file "mux4to1_tb.v", line 27.
+$finish at simulation time                   40
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40
+CPU Time:      0.730 seconds;       Data structure size:   0.0Mb
+Thu Jun 18 15:13:53 2026

@@ -1,0 +1,46 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/or_gate/simv" \
+           -args
+debImport "-dbdir" \
+          "/home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/or_gate/simv.daidir"
+debLoadSimResult \
+           /home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/or_gate/dump.fsdb
+wvCreateWindow
+srcHBSelect "or_gate_tb" -win $_nTrace1
+wvCreateWindow
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvOpenFile -win $_nWave3 \
+           {/home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/or_gate/dump.fsdb}
+srcHBAddObjectToWave -clipboard
+wvDrop -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+srcHBSelect "or_gate_tb" -win $_nTrace1
+srcHBSelect "or_gate_tb" -win $_nTrace1
+schCreateWindow -delim "." -win $_nSchema1 -scope "or_gate_tb"
+wvZoomOut -win $_nWave3
+schSelect -win $_nSchema4 -inst "dut"
+schSelect -win $_nSchema4 -inst "dut"
+wvCreateWindow
+schCreateWindow -delim "." -win $_nSchema1 -scope "or_gate_tb"
+srcHBSelect "or_gate_tb.dut" -win $_nTrace1
+schCreateWindow -delim "." -win $_nSchema1 -scope "or_gate_tb"
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_6
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_4
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+schCloseWindow -win $_nSchema4
+schCloseWindow -win $_nSchema6
+schCloseWindow -win $_nSchema7
+srcHBSelect "or_gate_tb" -win $_nTrace1
+schCreateWindow -delim "." -win $_nSchema1 -scope "or_gate_tb"
+srcHBSelect "or_gate_tb" -win $_nTrace1
+debExit

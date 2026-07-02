@@ -1,0 +1,18 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/not_gate/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 25 16:09 2026
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'dump.fsdb'
+*Verdi* : Begin traversing the scope (not_gate_tb), layer (0).
+*Verdi* : End of traversing.
+a=0, y=1
+a=1, y=0
+$finish called from file "not_gate_tb.v", line 18.
+$finish at simulation time                   20
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 20
+CPU Time:      0.820 seconds;       Data structure size:   0.0Mb
+Thu Jun 25 16:09:28 2026

@@ -1,0 +1,4 @@
+wvCreateWindow
+wvOpenFile -win $_nWave2 \
+           {/home/dvvfirst3/Abubakar_Shuaibu/Verilog/_Gate_Level_Modelling/Combinational_Circuits/adder/half_adder/dump.fsdb}
+debExit

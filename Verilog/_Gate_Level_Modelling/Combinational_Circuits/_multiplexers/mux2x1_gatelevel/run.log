@@ -1,0 +1,18 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/mux2x1_gatelevel/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 19 14:44 2026
+a=0 b=0 s=0 y=0
+a=0 b=1 s=0 y=0
+a=1 b=0 s=0 y=1
+a=1 b=1 s=0 y=1
+a=0 b=0 s=1 y=0
+a=0 b=1 s=1 y=1
+a=1 b=0 s=1 y=0
+a=1 b=1 s=1 y=1
+$finish called from file "mux2x1_gatelevel_tb.v", line 21.
+$finish at simulation time                   80
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80
+CPU Time:      0.820 seconds;       Data structure size:   0.0Mb
+Fri Jun 19 14:44:34 2026

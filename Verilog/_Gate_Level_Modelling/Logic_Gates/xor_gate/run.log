@@ -1,0 +1,20 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/GateLevelModelling/xor_gate/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 24 18:40 2026
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'dump.fsdb'
+*Verdi* : Begin traversing the scope (xor_gate_tb), layer (0).
+*Verdi* : End of traversing.
+a=0, b=0, y=0
+a=0, b=1, y=1
+a=1, b=0, y=1
+a=1, b=1, y=0
+$finish called from file "xor_gate_tb.v", line 21.
+$finish at simulation time                   40
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40
+CPU Time:      0.760 seconds;       Data structure size:   0.0Mb
+Wed Jun 24 18:40:12 2026

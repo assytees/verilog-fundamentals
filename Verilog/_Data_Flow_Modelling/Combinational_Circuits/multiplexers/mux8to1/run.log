@@ -1,0 +1,18 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/Combinational_Circuits/multiplexers/mux8to1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 18 15:19 2026
+sel=000 => y=0
+sel=001 => y=1
+sel=010 => y=0
+sel=011 => y=1
+sel=100 => y=0
+sel=101 => y=1
+sel=110 => y=0
+sel=111 => y=1
+$finish called from file "mux8to1_tb.v", line 35.
+$finish at simulation time                   80
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Thu Jun 18 15:19:29 2026

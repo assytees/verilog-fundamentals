@@ -1,0 +1,15 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/Combinational_Circuits/half_adder/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 18 14:48 2026
+A B | Sum Carry
+0 0 |  0    0
+0 1 |  1    0
+1 0 |  1    0
+1 1 |  0    1
+$finish called from file "half_adder_tb.v", line 28.
+$finish at simulation time                   40
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40
+CPU Time:      0.830 seconds;       Data structure size:   0.0Mb
+Thu Jun 18 14:48:21 2026
