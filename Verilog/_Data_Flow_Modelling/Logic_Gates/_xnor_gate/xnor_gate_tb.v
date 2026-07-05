@@ -1,24 +1,18 @@
-module xnor_gate_tb;
+//*****************************************************************************
+// Module Name : xnor_gate
+// Author      : Abubakar Shuaibu
+// Date        : 05 July 2026
+// Description : 2-input XNOR gate using dataflow modeling.
+//*****************************************************************************
 
-reg a, b;
-wire y;
+module xnor_gate(
 
-// Instantiate the XNOR gate
-xnor_gate uut (
-    .a(a),
-    .b(b),
-    .y(y)
+    input a, b,      // Input signals
+    output y         // Output signal
+
 );
 
-initial begin
-    $monitor("a=%b, b=%b, y=%b", a, b, y);
-
-    a = 0; b = 0; #10;
-    a = 0; b = 1; #10;
-    a = 1; b = 0; #10;
-    a = 1; b = 1; #10;
-
-    $finish;
-end
+// Perform XNOR operation using continuous assignment
+assign y = ~(a ^ b);
 
 endmodule
