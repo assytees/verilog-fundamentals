@@ -1,0 +1,58 @@
+#*****************************************************************************
+# Makefile for JK Flip-Flop Behavioral (Case Statement)
+# Author      : Abubakar Shuaibu
+# Description : Compile, simulate, and view waveforms using VCS + Verdi.
+#*****************************************************************************
+
+# Top-level testbench
+TOP = jk_flipflop_bhv_case_tb
+
+# Source files
+SRC = \
+	jk_flipflop_bhv_case.v \
+	jk_flipflop_bhv_case_tb.v
+
+# VCS Compiler
+VCS = vcs -full64 -sverilog
+
+# Compilation options
+VCS_OPTS = \
+	-debug_access+all \
+	-kdb \
+	-l compile.log
+
+# Default target
+all: compile run waves
+
+# Compile Verilog files
+compile:
+	$(VCS) $(VCS_OPTS) $(SRC)
+
+# Run simulation
+run:
+	./simv -l run.log
+
+# Open Verdi with generated FSDB waveform
+waves:
+	verdi -ssf dump.fsdb &
+
+# Open Verdi with source files
+gui:
+	verdi -sv $(SRC) -top $(TOP) &
+
+# Remove generated files
+clean:
+	rm -rf \
+		csrc \
+		simv \
+		simv.daidir \
+		DVEfiles \
+		verdiLog \
+		novas* \
+		*.log \
+		*.key \
+		*.vpd \
+		*.fsdb \
+		ucli.key \
+		.vcs* \
+		AN.DB
