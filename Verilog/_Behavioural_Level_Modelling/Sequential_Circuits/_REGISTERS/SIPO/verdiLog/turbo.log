@@ -1,0 +1,3 @@
+Command Line: /home/tool/synopsys/tools/verdi/R-2020.12-SP1/platform/LINUXAMD64/bin/Novas -ssf dump.fsdb
+uname(Linux cad 4.18.0-553.83.1.el8_10.x86_64 #1 SMP Tue Nov 11 20:51:18 UTC 2025 x86_64)
+au time 16.904099 7.123990 0.761092 delta 308629504 308629504 total 790913024 790913024

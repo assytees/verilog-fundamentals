@@ -1,0 +1,25 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/dvvfirst4/Desktop/Rahma/Verilog/SEQUENTIAL_CIRCUITS/SR_FlipFlop/simv" \
+           -args
+debImport "-dbdir" \
+          "/home/dvvfirst4/Desktop/Rahma/Verilog/SEQUENTIAL_CIRCUITS/SR_FlipFlop/simv.daidir"
+debLoadSimResult \
+           /home/dvvfirst4/Desktop/Rahma/Verilog/SEQUENTIAL_CIRCUITS/SR_FlipFlop/dump.fsdb
+wvCreateWindow
+wvCreateWindow
+srcHBSelect "sr_ff_tb.dut" -win $_nTrace1
+srcHBSelect "sr_ff_tb.dut" -win $_nTrace1
+wvCreateWindow
+wvSetPosition -win $_nWave4 {("G1" 0)}
+wvOpenFile -win $_nWave4 \
+           {/home/dvvfirst4/Desktop/Rahma/Verilog/SEQUENTIAL_CIRCUITS/SR_FlipFlop/dump.fsdb}
+srcHBAddObjectToWave -clipboard
+wvDrop -win $_nWave4
+wvZoomOut -win $_nWave4
+wvZoomOut -win $_nWave4
+wvZoomOut -win $_nWave4
+wvZoomOut -win $_nWave4
+wvZoomOut -win $_nWave4
+wvZoomOut -win $_nWave4
+wvZoomOut -win $_nWave4
+debExit

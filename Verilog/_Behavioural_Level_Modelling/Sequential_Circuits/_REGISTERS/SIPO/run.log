@@ -1,0 +1,32 @@
+Command: /home/dvvfirst3/Abubakar_Shuaibu/Verilog/_Behavioural_Level_Modelling/Sequential_Circuits2/REGISTERS/SIPO/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jul  9 16:28 2026
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'dump.fsdb'
+*Verdi* : Begin traversing the scope (sipo_tb), layer (0).
+*Verdi* : End of traversing.
+Time=0 clk=0 sin=1 pout=xxxx
+Time=5 clk=1 sin=1 pout=1xxx
+Time=10 clk=0 sin=0 pout=1xxx
+Time=15 clk=1 sin=0 pout=01xx
+Time=20 clk=0 sin=1 pout=01xx
+Time=25 clk=1 sin=1 pout=101x
+Time=30 clk=0 sin=1 pout=101x
+Time=35 clk=1 sin=1 pout=1101
+Time=40 clk=0 sin=0 pout=1101
+Time=45 clk=1 sin=0 pout=0110
+Time=50 clk=0 sin=0 pout=0110
+Time=55 clk=1 sin=0 pout=0011
+Time=60 clk=0 sin=0 pout=0011
+Time=65 clk=1 sin=0 pout=0001
+Time=70 clk=0 sin=0 pout=0001
+Time=75 clk=1 sin=0 pout=0000
+$finish called from file "sipo_tb.v", line 53.
+$finish at simulation time                   80
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80
+CPU Time:      0.660 seconds;       Data structure size:   0.0Mb
+Thu Jul  9 16:28:03 2026

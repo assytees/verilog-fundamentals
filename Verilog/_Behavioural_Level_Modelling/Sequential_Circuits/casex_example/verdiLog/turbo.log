@@ -1,9 +1,3 @@
 Command Line: /home/tool/synopsys/tools/verdi/R-2020.12-SP1/platform/LINUXAMD64/bin/Novas -ssf dump.fsdb
 uname(Linux cad 4.18.0-553.83.1.el8_10.x86_64 #1 SMP Tue Nov 11 20:51:18 UTC 2025 x86_64)
-type= DS_SCOPE element= 1 field= 1
-VERILOG casex_example_tb
-VERILOG dut
------
-second field= DebussyLib
-third field= casex_example
-au time 290.517456 13.114161 4.301331 delta 376389632 376389632 total 858669056 858669056
+au time 13.534143 7.945214 0.724224 delta 308809728 308809728 total 791093248 791093248
